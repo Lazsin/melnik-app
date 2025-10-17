@@ -1,0 +1,62 @@
+.root{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family:"Circular Std", Sans-serif;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.blue{
+    background-color: #27a0b5;
+    
+}
+.notwhite{
+    background-color: #f7f7fb;
+}
+.anotherblue{
+    background-color: #2290a3;
+}
+section, header, footer{
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+    
+}
+h1{
+    font-size: 3.5rem;
+}
+button{
+    background-color: #ffbc64;
+    font-weight: bold;
+    font-size: medium;
+    color: #ffffe6;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    min-width: 150px;
+    width: 200px;
+    max-width: 200px;
+    cursor: pointer;
+    transition: background-color 0.5s ease
+}
+button:hover{
+    background-color: black;
+}
+img.logo{
+    width: 125px;
+    height: auto
+}
+.name-line {
+  display: flex;
+  margin: 50px 0;
+  align-items: center;
+  gap: 12px; /* расстояние между линией и текстом */
+}
+.line {
+  width: 50px;
+  height: 5px;
+  background-color: #27a0b5; /* синий цвет линии */
+}

@@ -1,0 +1,34 @@
+.consultations{
+    padding-top: 50px;
+}
+
+.consultations-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.consultation-content-card{
+    display: grid;
+    height: 250px;
+    width: 400px;
+    align-content: space-between;
+    /* background-color: aquamarine; */
+    margin: 20px;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.consultation-content-card h1{
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.consultations-title{
+    color: #25a0b5;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px ;
+}
+.consultations h1{
+    color: #25a0b5;
+}

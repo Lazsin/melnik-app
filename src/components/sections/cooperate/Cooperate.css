@@ -1,0 +1,38 @@
+.cooperate{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.blocks-cooperate{
+    align-items: center;
+    padding:  0 50px 0 0;
+    max-width: 50%;
+}
+.content-block-cooperate{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    margin: 40px 0;
+    min-width: 400px;
+}
+.text-block-cooperate{
+    margin: 10px;
+}
+.text-block-cooperate p{
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+
+
+
+.text-cooperate{
+    color: white;
+    max-width: 45%
+}
+.text-cooperate p {
+    line-height: 2;
+    font-size: 1.3rem;
+}
+

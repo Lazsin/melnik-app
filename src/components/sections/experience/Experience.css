@@ -1,0 +1,31 @@
+.experience{
+    padding: 100px;
+}
+.experience-content{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.experience-text{
+    margin: 0 50px 0  0;
+}
+
+.experience ul{
+    padding: 0;
+    list-style: none;
+}
+.experience li{
+    margin: 15px 0;
+}
+
+.experience li::before{
+    content: "⦿";
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.experience img{
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px 20px rgba(39, 160, 181, 0.3); /* мягкое голубое свечение */
+}

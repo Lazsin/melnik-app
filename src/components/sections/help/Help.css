@@ -1,0 +1,36 @@
+.help{
+    text-align: center;
+    display: grid;
+    max-width: 500px;
+    padding: 100px;
+    justify-content: center;
+}
+.help-text{
+    justify-items: center;
+}
+
+.help-form{
+    display: grid;
+    justify-items: center;
+}
+.help-form input, .help-form textarea{
+    width: 100%;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  color: #333;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+
+.help h1 {
+    font-size: 2rem;
+}
+.help p{
+    justify-items: center;
+    width: 70%;
+    line-height: 1.5;
+}

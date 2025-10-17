@@ -1,0 +1,16 @@
+.projects{
+    text-align: center;
+    padding: 50px;
+}
+.projects-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.projects h1{
+   color: #25a0b5;
+}
+
+.projects img{
+    max-width: 350px;
+}
