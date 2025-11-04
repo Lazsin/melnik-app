@@ -14,24 +14,14 @@ export default function App() {
     <>
       <Header/>
       <BusinessCard/>
-      <main className='blue'>
-        <Cooperate/>
-      </main>
+      <Cooperate/>
       <Experience/>
-   
-      <main className='notwhite'>
-           <Consultations/>
-      </main>
+      <Consultations/>
       <Projects/>
-      <main className='notwhite'>
-        <Help/>
-      </main>
-      <main className='blue'>
-        <ContactMe/>
-      </main>
-      <main className='anotherblue'>
-        <Footer/>
-      </main>
+      <Help/>  
+      <ContactMe/>
+      <Footer/>
+
     </>
   )
 }
