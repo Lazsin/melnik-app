@@ -54,14 +54,14 @@ export default function Cooperate() {
   ];
 
   return (
-    <section className="bg-[#28a0b5] justify-center">
-     <div className="flex flex-col-reverse  max-w-[1600px]  lg:flex-row justify-between items-start px-8 md:px-16 py-24 ">
+    <section className="bg-[#28a0b5] flex justify-center">
+     <div className="flex flex-col-reverse  max-w-[1600px] md:flex-row justify-center items-start px-1 md:px-4  py-24 ">
        {/* Левая колонка — карточки */}
-      <div className="flex flex-col items-center lg:items-start w-full lg:w-1/2 space-y-10 mb-16 lg:mb-0">
+      <div className="flex flex-col items-center lg:items-start w-full lg:w-fit space-y-10 mb-16 lg:mb-0">
         {items.map((item, idx) => (
           <div
             key={idx}
-            className="bg-white rounded-2xl flex items-start p-6 shadow-md min-w-[280px] max-w-md transition-transform hover:scale-[1.02]"
+            className="bg-white self-center md:self-end rounded-2xl flex items-start p-6 shadow-md min-w-[280px] max-w-md transition-transform hover:scale-[1.02]"
           >
             <div className="flex max-w-[60px] ">
               <img src={item.icon} alt={item.title} className="w-full " />

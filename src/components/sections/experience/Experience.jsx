@@ -34,9 +34,9 @@ import xp_img from '../../../assets/img/experience.jpg'
 
 export default function Experience() {
   return (
-    <section className=" bg-white flex justify-center">
-      <div className="py-24 md:px-20 max-w-[1600px] text-gray-800">
-<div className="flex flex-col md:flex-row justify-between items-center gap-12">
+    <section className="bg-white flex justify-center mx-auto">
+      <div className="py-24 md:px-5 max-w-[1600px] flex mx-auto text-gray-800">
+        <div className="flex flex-col-reverse lg:flex-row justify-around items-center gap-12">
         {/* Текст */}
         <div className="md:w-1/2 space-y-6 p-1">
           {/* Заголовок с линией */}
@@ -93,7 +93,7 @@ export default function Experience() {
         </div>
 
         {/* Изображение */}
-        <div className="md:w-1/2 flex justify-center">
+        <div className="md:w-fit flex justify-center">
           <img
             src={xp_img}
             alt="experience"

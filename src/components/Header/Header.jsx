@@ -1,27 +1,5 @@
 import Button from "../Button/Button"
 import logo from '../../assets/img/logo_blue.png'
-
-// import './Header.css'
-// export default function Header(){
-//     return(
-//         <header>
-//           <div className='header-img'>
-//             <img className="logo" src={logo} alt="header-logo"></img>
-//           </div>
-//           <div className='header-navbar'>
-//               <p>Статті</p>
-//               <p>Мої проекти</p>
-//               <p>Послуги</p>
-//               <p>Українська</p>
-//           </div>
-//           <div>
-//             <Button className='standart-bold' text='Contact'></Button>
-//           </div>
-//         </header>
-//     )
-// }
-
-
 import { useState } from "react";
 
 
@@ -30,7 +8,7 @@ export default function Header() {
 
   return (
     <header className="bg-white flex justify-center relative z-50">
-      <div className="flex items-center max-w-[1600px] justify-between px-4 py-6 w-full">
+      <div className="flex items-center max-w-[1600px] justify-around px-4 py-6 w-full">
         {/* Логотип */}
         <div className="flex">
           <img src={logo} alt="logo" className="h-10 mx-4 object-contain" />

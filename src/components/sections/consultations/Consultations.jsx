@@ -76,7 +76,7 @@ export default function Consultations() {
   ];
 
   return (
-    <section className="pt-12 pb-24 bg-white text-gray-800">
+    <section className="pt-12 pb-24 bg-[#f7f7fb] text-gray-800">
       {/* Заголовок 1 */}
       <h1 className="text-3xl md:text-4xl font-bold text-[#28a0b5] text-center mt-6 mb-10">
         Консультації з розвитку бізнесу
@@ -108,7 +108,7 @@ export default function Consultations() {
         {careerConsultations.map((item, index) => (
           <div
             key={index}
-            className="grid content-between max-w-[400px] min-w-[250px] bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-lg hover:-translate-y-1 transition-transform duration-300"
+            className="grid content-between max-w-[400px] min-w-[250px] self-center bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-lg hover:-translate-y-1 transition-transform duration-300"
           >
             <h1 className="text-[#28a0b5] text-xl font-semibold mb-2">
               {item.title}
